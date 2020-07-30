@@ -18,10 +18,10 @@ For loops
 syntax for (start ; end ; update ){} 
 */
 
-for (var i = 0; i <=5; i++) // start at 0, end at 5, increase by 1 until we hit the end point, or 5 in this case
+for (var i = 0; i <=5; i++){ // start at 0, end at 5, increase by 1 until we hit the end point, or 5 in this case
 
 console.log(i); //Prints 1 - 5
-
+}
 //loop backwards counting down from 10 - 1
 for (var i = 10; i >= 1; i--){
 console.log(i); //prints from 10 - 1 in the console 

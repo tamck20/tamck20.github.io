@@ -20,7 +20,7 @@ Infinity and -infinity
 -can be written with or without decimals
 -numbers can be negative as well
 */
-var myNum = 17 //initialize x to a number (5)
+var myNum = 17; //initialize x to a number (5)
 console.log(myNum); // prints variable which is 17
 
 //Strings
@@ -55,8 +55,8 @@ var lastName = "McKiernan" //intializing variable firstName into a string of my 
 Booleans are statements referring to whether the code inputted is true or false
 
 */
-var isJetsFan = true
-var isSaintsFan = false
+var isJetsFan = true;
+var isSaintsFan = false;
 console.log(isJetsFan); // which will return true
 console.log(isSaintsFan); // which will return false
 
@@ -182,8 +182,8 @@ isNaN(23)
 /*
 Infinity and -Infinity
 They simply represent a value that is positive infininty and negative infinity*/
-Infinity + Infinity // prints Infinity
--1/0 // prints -Infinity
+//Infinity + Infinity // prints Infinity
+//-1/0 // prints -Infinity
 
 /*
 Primitive/Simple Data types include: Numbers, strings, booleans, NaN, 

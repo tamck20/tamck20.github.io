@@ -81,5 +81,5 @@ function hoist() {
 }
 hoist();
 
-console.log(a); //Accessible as a global variable outside hoist() function, output: 20
+//console.log(a); //Accessible as a global variable outside hoist() function, output: 20
 //console.log(b); //Since it was declared, it is confined to the hoist() function scope. We can't print it out outside the function.
