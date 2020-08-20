@@ -282,6 +282,7 @@ _.partition = function(array, func){
     let falseArray = [];
     let results = [];
      for (let i = 0; i < array.length; i++){
+         //if the element we call on passes the argument, push to truthy array
          if (func(array[i], i, array)){
              trueArray.push(array[i]);
          }else if (!func(array[i], i, array)){
